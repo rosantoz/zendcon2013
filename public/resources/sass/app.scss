@@ -1,0 +1,20 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+// Custom code goes here..
+@import 'sencha-touch/zendcon/all';
+
+// Examples of using the icon mixin:
+// @include icon('user');
+@include icon-font('Icomoon', inline-font-files('icomoon/icomoon.woff', woff, 'icomoon/icomoon.ttf', truetype, 'icomoon/icomoon.svg', svg));
+
+@include icon("zc_home", "\e000", "Icomoon");
+@include icon("zc_speakers", "\e001", "Icomoon");
+@include icon("zc_schedule", "\e002", "Icomoon");
+@include icon("zc_tweets", "\e003", "Icomoon");
+@include icon("zc_venue", "\e004", "Icomoon");
+@include icon("zc_about", "\e005", "Icomoon");
+@include icon("zc_list", "\e006", "Icomoon");
+@include icon("zc_about_dark", "\e007", "Icomoon");
