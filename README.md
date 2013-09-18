@@ -7,6 +7,6 @@ I have used ZF2 for the app backend and Sencha Touch 2 for the front end.
 
 You can see the application running on http://zendconapp.dossantos.com.au (please use a webkit browser such as chrome or safari, a mobile phone or a tablet)
 
-This is not the winning app, but the project might be useful to someone.
+This app wasn't the winner, but the project might be useful to someone.
 
 I hope you enjoy.
